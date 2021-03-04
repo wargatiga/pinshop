@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>Pin's Shop</title>
+
+        <style>
+        Body 
+        {color: #fff;
+        background-color: #6490d2;}
+
+      .service-card-container
+       {display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;}
+
+      .service-card
+      {width: 300px;
+      height: 200px;
+      margin: 10px;}
+
+      .navbar 
+      {background-color: #c197d2;}
+
+      .navbar a 
+      {color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        position: relative;}
+
+      .navbar a:after 
+      {background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: '';
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background-color: #fff;
+        transition: all 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;}
+
+      .navbar a:hover,
+      .navbar a.active 
+      {color: #192523;}
+
+      .navbar a:hover:after,
+      .navbar a:active:after,
+
+      .navbar a.active:after 
+      {background-color: #192523;
+        width: 100%;
+        left: 0;}
+
+      .color-black 
+      {columns: #13161a;;}
+        </style>
+
+    </head>    
+
+    <body>
+        
+        <nav class="navbar sticky-top navbar-light">
+            <div class="container justify-content-md-end justify-content-center">
+              <ul class="nav d-flex justify-content-center">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#HOME"><b>Home</b></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#DESSERTS"><b>Desserts</b></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#BEVERAGES"><b>Beverages</b></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#FIND US"><b>Find Us</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#ABOUT DEVELOPER"><b>About Developer</b></a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+
+          <div class="text-right; p-5" style="background: #2d2e2c">
+            <div class="text-center"></div>
+            <img src="Pini Logo Utama.PNG" id="HOME" class="text-left" alt="Logo" width="15%">
+            <h5>Welcome To</h5>
+            <h1><i><b>Pin's Shop</b></i></h1>
+            <h4>Happy Tummy</h4>
+          </div>
+
+          <div style="background-color: #fd9228" class="text-center p-4">
+            <div class="container">
+              <div class="row">
+                  <h1 id="DESSERTS"><b>DESSERTS SECTION</b></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="container">
+            <div class="row row-cols-2">
+
+                <div class="text-center p-5" class="col"><h2><b>Japanese Cheese Cake</b></h2></div>
+                <img src="Japanese Cheese Cake.jpg" alt="Japanese Cheese Cake" width="10%">
+      
+                <div class="text-center p-5" class="col"><h2><b>Milo Dessert Box</b></h2></div>
+                <img src="Milo Dessert Box.jpg" alt="Milo Dessert Box" width="10%">
+      
+                <div class="text-center p-5" class="col"><h2><b>Marmer Cake</b></h2></div>
+                <img src="Marmer Cake.jpg" alt="Marmer Cake" width="10%">
+      
+                <div class="text-center p-5" class="col"><h2><b>Sekat Brownies</b></h2></div>
+                <img src="Sekat Brownies.jpg" alt="Sekat Brownies" width="10%">
+              </div>
+        </div>
+
+
+          <div style="background-color: #fd9228" class="text-center p-4">
+            <div class="container">
+              <div class="row">
+                  <h1 id="BEVERAGES"><b>BEVERAGES SECTION</b></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="container">
+            <div class="row row-cols-2">
+
+              <img src="Cappucino.jpg" alt="Cappucino" width="10%">
+              <div class="text-center p-5" class="col"><h2><b>Cappucino</b></h2></div>
+    
+              <img src="Latte.jpg" alt="Latte" width="10%">
+              <div class="text-center p-5" class="col"><h2><b>Latte</b></h2></div>
+              
+              <img src="Moccachino.jpg" alt="Moccachino" width="10%">
+              <div class="text-center p-5" class="col"><h2><b>Moccachino</b></h2></div>
+
+              <img src="Americano.jpeg" alt="Americano" width="10%">
+              <div class="text-center p-5" class="col"><h2><b>Americano</b></h2></div>
+            </div>
+      </div>
+
+      <div style="background-color: #fd9228" class="text-center p-4">
+        <div class="container">
+          <div class="row">
+              <h1 id="FIND US"><b>FIND US</b></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-right; p-5" style="background: #fbc5ff">
+        <div class="container"></div>
+        
+        <div class="row row-cols-4">
+            <a href="https://www.instagram.com/dnrspni/" target="_blank"><img src="Instagram.png" alt="Instagram" width="100%"></a>
+            <a href="https://line.me/ti/p/zv6cHootrt" target="_blank>"><img src="line.png" alt="Line" width="100%"></a>
+            <a href=" https://wa.me/085107001133" target="_blank"><img src="whatsapp.png" alt="Whatsapp" width="100%"></a> 
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvqKGzLfkthlKDGQDqxbVSjHxKQfkMXbVRCFKLjpsdrmqjgMggBSmHsXzsvPGBvcpppnPg" target="_blank"><img src="gmail.png" alt="Email" width="100%"></a>
+        </div>
+
+        <br>
+        <br>
+
+        <h5 style="color: #13161a;" class="text-center"><b>
+                Jl. Futsal I block C no.26, Sukamiskin, Kecamatan Arcamanik, Kota Bandung, Jawa Barat.
+        </b></h5>
+
+    </div>
+
+      <div style="background-color: #fd9228" class="text-center p-4">
+        <div class="container">
+          <div class="row">
+              <h1 id="ABOUT DEVELOPER"><b>ABOUT DEVELOPER</b></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-right; p-5" style="background: #2d2e2c">
+        <div class="container"></div>
+
+        <h4 style="color: #ffffff;" class="text-center"><b>
+            Dinara Safina
+         </b></h4>
+ 
+         <p style="color: #ffffff;" class="text-center">
+            Akrab disapa Dinara atau Fina yang kini belajar di kelas XI MIPA 4 absen 09. Dinara menghabiskan waktunya untuk mengerjakan tugas, belajar, dan mengurusi hal-hal kesekretariatan OSIS. Menekuni bidang kesehatan dan bercita-cita menjadi seorang dokter.
+         </p>
